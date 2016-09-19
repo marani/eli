@@ -8,12 +8,12 @@ npm init
 npm i marani/eli --save
 ```
 
-Step 2: create
+Step 2: Create some test
 ```
 var compress = require('eli').compress;
-var checkURIs = rqeuire('eli').checkURIs;
+var checkURIs = require('eli').checkURIs;
 
-// sample usage
+// some sample usage
 console.log(checkURIs(
   'http://x:y@abc.com:81/~smith/home.html#abc',
   'http://x::y@ABC.com:80/%7Esmith/home.html#abc'));
